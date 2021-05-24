@@ -1,8 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  // demo_nuxt0524
   // Global page headers: https://go.nuxtjs.dev/config-head
+  
   head: {
     title: 'demo_nuxt',
     htmlAttrs: {
@@ -17,11 +18,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { src: "/js/jquery.min.js", body: true },
-      { src: "/js/browser.min.js", body: true },
-      { src: "/js/breakpoints.min.js", body: true },
-      { src: "/js/util.js", body: true },
-      { src: "/js/main.js", body: true }
+      { src: "/demo_nuxt0524/js/jquery.min.js", body: true },
+      { src: "/demo_nuxt0524/js/browser.min.js", body: true },
+      { src: "/demo_nuxt0524/js/breakpoints.min.js", body: true },
+      { src: "/demo_nuxt0524/js/util.js", body: true },
+      { src: "/demo_nuxt0524/js/main.js", body: true }
     ]
   },
 
